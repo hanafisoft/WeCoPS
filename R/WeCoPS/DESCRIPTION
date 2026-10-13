@@ -1,0 +1,23 @@
+Package: WeCoPS
+Type: Package
+Title: Weighting CPCA for Common and Proper Structures
+Version: 0.2.1
+Authors@R: person("Mohamed", "Hanafi", email = "mohammed44hanafi@gmail.com",
+    role = c("aut", "cre"))
+Description: Does a block weighting lead to the same interpretation as the default
+    weighting in consensus principal component analysis (CPCA)? For a fixed number
+    of components, the package reads the retained subspace in two bases (principal
+    components; common and proper components obtained by concentration and rotation
+    towards a data-driven target), measures how principal components mix common and
+    proper components, applies an equivalence rule based on the motif of common and
+    proper components and on their presence in the subspace of the alternative
+    weighting, returns the canonical factorisation of each block on both bases, and
+    draws a diagnostic sheet.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: graphics, grDevices, stats, utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/hanafisoft/WeCoPS
+BugReports: https://github.com/hanafisoft/WeCoPS/issues

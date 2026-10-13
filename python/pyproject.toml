@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wecops"
+version = "0.2.1"
+description = "Weighting CPCA for Common and Proper Structures: does a block weighting change the interpretation of a consensus PCA?"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Mohamed Hanafi", email = "mohammed44hanafi@gmail.com"}]
+maintainers = [{name = "Mohamed Hanafi", email = "mohammed44hanafi@gmail.com"}]
+dependencies = ["numpy>=1.21", "scipy>=1.7"]
+keywords = ["multiblock", "consensus PCA", "CPCA", "block weighting", "common and distinctive components", "chemometrics"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Topic :: Scientific/Engineering :: Mathematics"]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.5"]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/hanafisoft/WeCoPS"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+wecops = ["data/*.csv"]
