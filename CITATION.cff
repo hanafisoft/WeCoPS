@@ -4,6 +4,7 @@ title: "WeCoPS: Weighting CPCA for Common and Proper Structures"
 version: 0.2.1
 date-released: 2026-10-12
 license: MIT
+doi: 10.5281/zenodo.23337145
 repository-code: "https://github.com/hanafisoft/WeCoPS"
 authors:
   - family-names: Hanafi

@@ -1,5 +1,7 @@
 # WeCoPS — Weighting CPCA for Common and Proper Structures
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23337145.svg)](https://doi.org/10.5281/zenodo.23337145)
+
 Does a block weighting lead to the same interpretation as the default weighting in consensus
 PCA (CPCA)? This repository contains two implementations with the same functions and results:
 
@@ -64,4 +66,4 @@ the agreement of B. Jaillais) and four simulated datasets.
 ## Author, licence, citation
 
 Author and maintainer: Mohamed Hanafi (StatSC, Oniris-INRAE) <mohammed44hanafi@gmail.com>.
-Licence: MIT. See `CITATION.cff` to cite the software.
+Licence: MIT. Cite as: Hanafi M. (2026). WeCoPS: Weighting CPCA for Common and Proper Structures, version 0.2.1. Zenodo. https://doi.org/10.5281/zenodo.23337145 (see also `CITATION.cff`).
