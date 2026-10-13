@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "WeCoPS: Weighting CPCA for Common and Proper Structures"
+version: 0.2.1
+date-released: 2026-10-12
+license: MIT
+repository-code: "https://github.com/hanafisoft/WeCoPS"
+authors:
+  - family-names: Hanafi
+    given-names: Mohamed
+    email: mohammed44hanafi@gmail.com
+    affiliation: "StatSC, Oniris-INRAE, Nantes, France"
+keywords:
+  - multiblock analysis
+  - consensus PCA
+  - block weighting
+  - common and proper components
